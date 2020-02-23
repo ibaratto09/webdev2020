@@ -1,0 +1,109 @@
+
+body {
+    background-color: #add0c0;
+    font-family: 'Biryani', sans-serif;
+}
+
+
+
+.flex-container {
+    float: left;
+    padding-top: 30px;
+    position: relative;
+    width: 50%;
+}
+
+/*contains layout for image of me*/
+   
+.container_text {
+    width: 50%;
+    position: relative;
+}
+
+/*controls layout for caption*/
+
+nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+  
+    
+
+}
+
+
+
+   
+p {
+    position: relative;
+    width: 50%;
+    color: #004799;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*caption*/
+
+h2 {
+    color: #04725c;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+/*head caption*/
+
+
+
+
+header {
+    
+    background-color: #c8e2e2;
+    color: #045972;
+    font-family: 'Righteous', cursive;
+    font-kerning:normal;
+    font-size: 50px;
+    text-align: center;
+}
+
+  
+/*Title*/
+
+
+
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+li a:hover {
+   background-color:#7e99a1;
+   color: white;
+   
+}
+
+
+
+
+
+a.active {
+   color: white;
+}
+
+  /*appears white when clicked on*/  
+
+  .w3-button {
+    background: #4E9CAF;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    height:25;
+    float: right;
+    padding: 15px;
+    text-align: center;
+    width: 50px;
+}
+/*gives the button appearance to nav*/
+
+
+
+
+
+
+
