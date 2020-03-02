@@ -1,4 +1,8 @@
 
+* {
+    padding: 0;
+    margin 0 auto;
+}
 body {
     background-color: #add0c0;
     font-family: 'Biryani', sans-serif;
@@ -12,6 +16,8 @@ header {
     font-kerning:normal;
     font-size: 50px;
     text-align: center;
+    display: flex;
+    height: 10vw;
 }
 
 h2 {
@@ -22,7 +28,6 @@ h2 {
 nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    display: -webkit-flex;
     display: flex;
     flex-direction: row;
     margin-right: auto;
@@ -55,16 +60,25 @@ a.active {
     color: white;
 }
  
+
+
    /*appears white when clicked on*/  
+   #main-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 30px;
+
+   }
 .w3-button {
     background: #4E9CAF;
     border-radius: 20px;
     margin: 10px;
     color: white;
     font-weight: bold;
-    height: 100%;
+    height: 30%;
     padding: 15px;
-    width: 100%;
+    width: 30%;
  }
 
 
