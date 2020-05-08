@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 20px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 98%;
+    max-width: 1000px;
+    height: 98vh;
+}
+
+#outline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid darkslateblue;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    animation: outline 6s linear;
+    font-size: 1.5em;
+}
+
+#inside {
+    position: absolute;
+    animation-name: inside;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    width: 0px;
+    height: 100%;
+}
+
+@keyframes inside {
+    0% {transform: rotateZ(0deg); top: 0; width: 0%; background-color: pink}
+    60% {transform: rotateZ(0deg); top: 0; width: 100%; background-color:lightgreen}
+    90% {transform: rotateZ(0deg); top: 0; width: 100%; background-color:lightgreen}
+    100% {transform: rotateZ(90deg); top: 150vh; width: 100%; background-color:lightseagreen}
+}
+
+@keyframes outline {
+    0% {color: rgba(0, 0, 0, 0)}
+    60% {color: rgba(0, 0, 0, 0)}
+    100% {color: rgba(0, 0, 0, 0)}
+}
